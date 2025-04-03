@@ -71,19 +71,19 @@
 > ```
 ```
 {
-  "TRAIN_NO": "12318",
+  "TRAIN_NO": "14004",
   "TRAIN_COACH": "3A",
-  "TRAVEL_DATE": "12/09/2023",
-  "SOURCE_STATION": "UMB",
+  "TRAVEL_DATE": "04/04/2025",
+  "SOURCE_STATION": "MB",
   "BOARDING_STATION": null, <-- Change to full station name if required, else leave null
-  "DESTINATION_STATION": "BSB",
+  "DESTINATION_STATION": "BGP",
   "TATKAL": true,
   "PREMIUM_TATKAL": false,
   "UPI_ID_CONFIG": "",
   "PASSENGER_DETAILS": [
     {
-      "NAME": "SHIVAM PANDEY",
-      "AGE": 25,
+      "NAME": "Syed Maroof",
+      "AGE": 17,
       "GENDER": "Male",
       "SEAT": "Side Upper",
       "FOOD" "No Food"
@@ -97,9 +97,9 @@
 
 ***
 ```
-"__valid_coaches__": "SL | 2A | 3A | 3E | 1A | CC | EC | 2S", <---------- Please Use Only from these values.
-"__valid_seats__": "Lower | Middle | Upper | Side Lower | Side Upper | Window Side | No Preference",   <---------- Please Use Only from these values.
-"__valid_genders__": "Male | Female | Transgender", <---------- Please Use Only from these values.
+"__valid_coaches__": "3A", <---------- Please Use Only from these values.
+"__valid_seats__": "No Preference",   <---------- Please Use Only from these values.
+"__valid_genders__": "Male", <---------- Please Use Only from these values.
 "__valid_food_choices__": "Veg | Non Veg | No Food" <---------- Please Use Only from these values.
 
 ```
@@ -154,8 +154,8 @@
 
 ```
 {
-    "USERNAME": "yourusername",
-    "PASSWORD": "yourpassword",
+    "USERNAME": "Maroof75",
+    "PASSWORD": "y=Maroofalam@75",
     "MANUAL_CAPTCHA": false
 }
 ```
